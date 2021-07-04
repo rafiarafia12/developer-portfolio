@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .dp {
   color: peru;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -35,4 +38,30 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.ex-item {
+  width: 40%;
+  box-shadow: 10px 20px 30px rgb(60, 70, 60);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+#web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, orange);
+  border-image-slice: 1;
+}
+#web-baby {
+  border-left: 6px solid;
+  border-image: linear-gradient(orange, blue);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
